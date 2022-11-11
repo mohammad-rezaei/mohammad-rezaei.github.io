@@ -1,0 +1,1551 @@
+@font-face {
+    font-family: 'GreatVibes';
+    src: url('../fonts/GreatVibes-Regular.woff2') format('woff2'),
+        url('../fonts/GreatVibes-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.slide {
+    width: 100%;
+}
+
+
+.header-fix {
+    position: fixed;
+    z-index: 1;
+    margin-top: 0px;
+    color: white;
+}
+
+@media all and (max-width:576px) {
+    .carovasat {
+        margin-top: 2%;
+    }
+
+    .carovasat h3 {
+        font-size: 16px;
+    }
+
+    .carovasat h1 {
+        font-size: 18px;
+    }
+
+    .carovasat h2 {
+        font-size: 18px;
+    }
+
+    .carovasat p {
+        font-size: 12px;
+    }
+
+    .service-items {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        align-items: center;
+
+    }
+
+    .service-item-icon {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .bot-cont {
+        width: 40px;
+        font-size: 15px;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bot-cont button {
+        margin-left: 5px;
+        margin-right: 5px;
+        padding: 10px;
+    }
+
+    .four {
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 100px;
+    }
+
+    .aks img {
+        width: 100px;
+        height: 100px;
+        border: 3px solid #ffb902;
+        border-radius: 85px;
+    }
+
+    .matn {
+        background-color: white;
+        width: 100%;
+        height: 100px;
+        margin-left: 20px;
+        overflow: scroll;
+
+    }
+
+    .sub {
+        width: 95%;
+        height: 50px;
+        background-color: white;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 150px;
+        border: 4px solid gray;
+    }
+
+    .slidebutton-bot-sub {
+        padding: 4px 20px;
+        height: 42px;
+        background-color: #ffb902;
+        color: black;
+        text-align: center;
+        outline: none;
+        transition: all 0.5s ease-in-out;
+        animation: buttonslide 1 ease-in-out 0;
+        margin-bottom: 20px;
+    }
+
+    .slidebutton-bot-sub:hover {
+        background-color: black;
+        color: white;
+    }
+
+    .bot-sub {
+        right: 0;
+    }
+
+    .sub i {
+        left: 0;
+        font-size: 30PX;
+        margin-top: -2PX;
+        margin-left: 4PX;
+        color: #ffb902;
+
+    }
+
+    .sub input {
+        margin-left: 44px;
+        margin-top: 6PX;
+        width: 65%;
+    }
+
+    .box1 {
+        margin-top: 235px;
+        margin-left: 50px;
+    }
+
+    .box2 {
+        margin-top: -15px;
+        margin-left: 30px;
+    }
+
+    .box3 {
+        margin-top: 290px;
+        margin-left: 10px;
+    }
+
+    .box4 {
+        margin-top: -30px;
+        margin-left: -35px;
+    }
+
+    .box5 {
+        margin-top: 260px;
+        margin-left: -20px;
+    }
+
+    .box6 {
+        margin-top: 0px;
+        margin-left: 0px;
+
+    }
+
+}
+
+@media all and (min-width:576px) and (max-width:767px) {
+
+    .carovasat {
+        margin-top: 5%;
+    }
+
+    .carovasat h3 {
+        font-size: 20px;
+    }
+
+    .carovasat h1 {
+        font-size: 22px;
+    }
+
+    .carovasat h2 {
+        font-size: 22px;
+    }
+
+    .carovasat p {
+        font-size: 13px;
+    }
+
+    .service-items {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        align-items: center;
+
+    }
+
+    .service-item-icon {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .four {
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 100px;
+    }
+
+    .aks img {
+        width: 120px;
+        height: 120px;
+        border: 3px solid #ffb902;
+        border-radius: 85px;
+    }
+
+    .matn {
+        background-color: white;
+        width: 100%;
+        height: 120px;
+        margin-left: 20px;
+        overflow: scroll;
+
+    }
+
+    .sub {
+        width: 70%;
+        height: 50px;
+        background-color: white;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 150px;
+        border: 4px solid gray;
+    }
+
+    .slidebutton-bot-sub {
+        padding: 8px 30px;
+        height: 42px;
+        background-color: #ffb902;
+        color: black;
+        text-align: center;
+        outline: none;
+        transition: all 0.5s ease-in-out;
+        animation: buttonslide 1 ease-in-out 0;
+        margin-bottom: 20px;
+    }
+
+    .slidebutton-bot-sub:hover {
+        background-color: black;
+        color: white;
+    }
+
+    .bot-sub {
+        right: 0;
+    }
+
+    .sub i {
+        left: 0;
+        font-size: 30PX;
+        margin-top: -2PX;
+        margin-left: 4PX;
+        color: #ffb902;
+
+    }
+
+    .sub input {
+        margin-left: 44px;
+        margin-top: 6PX;
+        width: 48%;
+    }
+
+    .box1 {
+        margin-top: 220px;
+        margin-left: 85px;
+    }
+
+    .box2 {
+        margin-top: -10px;
+        margin-left: 40px;
+    }
+
+    .box3 {
+        margin-top: 290px;
+        margin-left: 35px;
+    }
+
+    .box4 {
+        margin-top: -20px;
+        margin-left: -35px;
+    }
+
+    .box5 {
+        margin-top: 250px;
+        margin-left: -20px;
+    }
+
+    .box6 {
+        margin-top: 30px;
+        margin-left: 20px;
+
+    }
+
+}
+
+@media all and (min-width:768px) and (max-width:991px) {
+    .carovasat {
+        margin-top: 8%;
+    }
+
+    .carovasat h3 {
+        font-size: 25px;
+    }
+
+    .carovasat h1 {
+        font-size: 27px;
+    }
+
+    .carovasat h2 {
+        font-size: 27px;
+    }
+
+    .carovasat p {
+        font-size: 14px;
+    }
+
+    .service-items {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        align-items: center;
+
+    }
+
+    .service-item-icon {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .aks img {
+        width: 130px;
+        height: 130px;
+        border: 3px solid #ffb902;
+        border-radius: 85px;
+    }
+
+    .matn {
+        background-color: white;
+        width: 100%;
+        height: 130px;
+        margin-left: 20px;
+        overflow: scroll;
+
+    }
+
+    .four {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 100px;
+    }
+
+    .sub {
+        width: 65%;
+        height: 60px;
+        background-color: white;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 150px;
+        border: 4px solid gray;
+    }
+
+    .slidebutton-bot-sub {
+        padding: 12px 40px;
+        height: 52px;
+        background-color: #ffb902;
+        color: black;
+        text-align: center;
+        outline: none;
+        transition: all 0.5s ease-in-out;
+        animation: buttonslide 1 ease-in-out 0;
+        margin-bottom: 20px;
+    }
+
+    .slidebutton-bot-sub:hover {
+        background-color: black;
+        color: white;
+    }
+
+    .bot-sub {
+        right: 0;
+    }
+
+    .sub i {
+        left: 0;
+        font-size: 40PX;
+        margin-top: -4PX;
+        margin-left: 4PX;
+        color: #ffb902;
+
+    }
+
+    .sub input {
+        margin-left: 60px;
+        margin-top: 12PX;
+        width: 52%;
+    }
+
+    .box1 {
+        margin-top: 200px;
+        margin-left: 130px;
+    }
+
+    .box2 {
+        margin-top: 10px;
+        margin-left: 60px;
+    }
+
+    .box3 {
+        margin-top: 300px;
+        margin-left: 60px;
+    }
+
+    .box4 {
+        margin-top: -20px;
+        margin-left: -35px;
+    }
+
+    .box5 {
+        margin-top: 250px;
+        margin-left: -20px;
+    }
+
+    .box6 {
+        margin-top: 50px;
+        margin-left: 40px;
+
+    }
+
+}
+
+@media all and (min-width:992px) and (max-width:1199px) {
+    .carovasat {
+        margin-top: 10%;
+    }
+
+    .carovasat h3 {
+        font-size: 30px;
+    }
+
+    .carovasat h1 {
+        font-size: 33px;
+    }
+
+    .carovasat h2 {
+        font-size: 33px;
+    }
+
+    .carovasat p {
+        font-size: 16px;
+    }
+
+    .service-items {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        align-items: center;
+
+    }
+
+    .service-item-icon {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .pull-right {
+        float: right;
+    }
+
+    .pull-left {
+        float: left;
+    }
+
+    .four {
+        width: 85%;
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 100px;
+    }
+
+    .aks img {
+        width: 140px;
+        height: 140px;
+        border: 3px solid #ffb902;
+        border-radius: 85px;
+    }
+
+    .matn {
+        background-color: white;
+        width: 100%;
+        height: 140px;
+        margin-left: 20px;
+        overflow: scroll;
+
+    }
+
+    .sub {
+        width: 50%;
+        height: 60px;
+        background-color: white;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 150px;
+        border: 4px solid gray;
+    }
+
+    .slidebutton-bot-sub {
+        padding: 12px 40px;
+        height: 52px;
+        background-color: #ffb902;
+        color: black;
+        text-align: center;
+        outline: none;
+        transition: all 0.5s ease-in-out;
+        animation: buttonslide 1 ease-in-out 0;
+        margin-bottom: 20px;
+    }
+
+    .slidebutton-bot-sub:hover {
+        background-color: black;
+        color: white;
+    }
+
+    .bot-sub {
+        right: 0;
+    }
+
+    .sub i {
+        left: 0;
+        font-size: 40PX;
+        margin-top: -4PX;
+        margin-left: 4PX;
+        color: #ffb902;
+
+    }
+
+    .sub input {
+        margin-left: 60px;
+        margin-top: 12PX;
+        width: 52%;
+    }
+
+    .box1 {
+        margin-top: 170px;
+        margin-left: 180px;
+    }
+
+    .box2 {
+        margin-top: 20px;
+        margin-left: 80px;
+    }
+
+    .box3 {
+        margin-top: 300px;
+        margin-left: 80px;
+    }
+
+    .box4 {
+        margin-left: -45px;
+    }
+
+    .box5 {
+        margin-top: 240px;
+        margin-left: -20px;
+    }
+
+    .box6 {
+        margin-top: 80px;
+        margin-left: 70px;
+
+    }
+
+
+}
+
+@media all and (min-width:1200px) and (max-width:1399px) {
+    .carovasat {
+        margin-top: 12%;
+    }
+
+    .carovasat h3 {
+        font-size: 35px;
+    }
+
+    .carovasat h1 {
+        font-size: 38px;
+    }
+
+    .carovasat h2 {
+        font-size: 38px;
+    }
+
+    .carovasat p {
+        font-size: 18px;
+    }
+
+    .service-items {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        align-items: center;
+
+    }
+
+    .service-item-icon {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .pull-right {
+        float: right;
+    }
+
+    .pull-left {
+        float: left;
+    }
+
+    .four {
+        width: 75%;
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 100px;
+    }
+
+    .aks img {
+        width: 140px;
+        height: 140px;
+        border: 3px solid #ffb902;
+        border-radius: 85px;
+    }
+
+    .matn {
+        background-color: white;
+        width: 100%;
+        height: 140px;
+        margin-left: 20px;
+        overflow: scroll;
+
+    }
+
+    .sub {
+        width: 50%;
+        height: 75px;
+        background-color: white;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 150px;
+        border: 4px solid gray;
+    }
+
+    .slidebutton-bot-sub {
+        padding: 12px 40px;
+        height: 67px;
+        background-color: #ffb902;
+        color: black;
+        text-align: center;
+        outline: none;
+        transition: all 0.5s ease-in-out;
+        animation: buttonslide 1 ease-in-out 0;
+        margin-bottom: 20px;
+    }
+
+    .slidebutton-bot-sub:hover {
+        background-color: black;
+        color: white;
+    }
+
+    .bot-sub {
+        right: 0;
+    }
+
+    .sub i {
+        left: 0;
+        font-size: 50PX;
+        margin-top: -3PX;
+        margin-left: 4PX;
+        color: #ffb902;
+
+    }
+
+    .sub input {
+        margin-left: 60px;
+        margin-top: 20PX;
+        width: 60%;
+    }
+
+    .box1 {
+        margin-top: 150px;
+        margin-left: 220px;
+    }
+
+    .box2 {
+        margin-top: 20px;
+        margin-left: 100px;
+    }
+
+    .box3 {
+        margin-top: 320px;
+        margin-left: 110px;
+    }
+
+    .box4 {
+        margin-left: -45px;
+    }
+
+    .box5 {
+        margin-top: 220px;
+    }
+
+    .box6 {
+        margin-top: 115px;
+        margin-left: 95px;
+
+    }
+
+}
+
+@media all and (min-width:1400px) {
+    .carovasat {
+        margin-top: 14%;
+    }
+
+    .carovasat h3 {
+        font-size: 42px;
+    }
+
+    .carovasat h1 {
+        font-size: 45px;
+    }
+
+    .carovasat h2 {
+        font-size: 45px;
+    }
+
+    .carovasat p {
+        font-size: 19px;
+    }
+
+    .service-items {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        align-items: center;
+
+    }
+
+    .pull-right {
+        float: right;
+    }
+
+    .pull-left {
+        float: left;
+    }
+
+    .four {
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 100px;
+    }
+
+    .aks img {
+        width: 140px;
+        height: 140px;
+        border: 3px solid #ffb902;
+        border-radius: 85px;
+    }
+
+    .matn {
+        background-color: white;
+        width: 100%;
+        height: 140px;
+        margin-left: 20px;
+        overflow: scroll;
+
+    }
+
+    .sub {
+        width: 50%;
+        height: 75px;
+        background-color: white;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 150px;
+        border: 4px solid gray;
+    }
+
+    .slidebutton-bot-sub {
+        padding: 12px 40px;
+        height: 67px;
+        background-color: #ffb902;
+        color: black;
+        text-align: center;
+        outline: none;
+        transition: all 0.5s ease-in-out;
+        animation: buttonslide 1 ease-in-out 0;
+        margin-bottom: 20px;
+    }
+
+    .slidebutton-bot-sub:hover {
+        background-color: black;
+        color: white;
+    }
+
+    .bot-sub {
+        right: 0;
+    }
+
+    .sub i {
+        left: 0;
+        font-size: 50PX;
+        margin-top: -3PX;
+        margin-left: 4PX;
+        color: #ffb902;
+
+    }
+
+    .sub input {
+        margin-left: 60px;
+        margin-top: 20PX;
+        width: 67%;
+    }
+
+    .box1 {
+        margin-top: 140px;
+        margin-left: 250px;
+    }
+
+    .box2 {
+        margin-top: 15px;
+        margin-left: 120px;
+    }
+
+    .box3 {
+        margin-top: 320px;
+        margin-left: 120px;
+    }
+
+    .box4 {
+        margin-left: -50px;
+    }
+
+    .box5 {
+        margin-top: 220px;
+    }
+
+    .box6 {
+        margin-top: 130px;
+        margin-left: 120px;
+
+    }
+
+
+}
+
+.navbar-b {
+    background-color: #ffb902;
+    color: white;
+}
+
+.a-nav {
+    color: white;
+    font-weight: 600;
+}
+
+.a-nav:hover {
+    color: black;
+}
+
+.a-nav-a {
+    color: black;
+}
+
+.a-nav-a:hover {
+    color: #ffb902;
+    margin-left: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    transition: all .3s ease-in-out;
+}
+
+.ul-nav {
+    margin-left: 15px;
+    animation: ul-na 1 ease-in-out 0;
+    box-shadow: -8px 8px 8px 8px;
+
+}
+
+@keyframes ul-na {
+    from {
+        margin-left: -10;
+    }
+
+    to {
+        margin-left: 0px;
+
+    }
+}
+
+.carovasat i {
+    color: #ffb902;
+
+    animation: buttonslide 1 ease-in-out 0;
+}
+
+.carovasat h1 {
+    color: white;
+
+}
+
+@keyframes h1slide {
+    from {
+        margin-bottom: 150px;
+    }
+
+    to {
+        margin-bottom: 0px;
+
+    }
+}
+
+.carovasat h2 {
+    color: #ffb902;
+    font-family: 'GreatVibes';
+}
+
+
+
+.carovasat p {
+    color: #b1b1b1;
+
+}
+
+.p-but {
+    font-weight: bold;
+}
+
+.slidebutton {
+    padding: 12px 40px;
+    background-color: #ffb902;
+    color: black;
+    border: 2px solid #ffb902;
+    border-radius: 52px;
+    text-align: center;
+    outline: none;
+    transition: all 0.5s ease-in-out;
+    animation: buttonslide 1 ease-in-out 0;
+    margin-bottom: 250px;
+    font-weight: 200;
+}
+
+.slidebutton:hover {
+    background-color: rgba(100, 100, 100, 0);
+    color: #ffb902;
+    border: 2px solid #ffb902;
+}
+
+
+
+
+.carol {
+    margin-left: -15%;
+    margin-bottom: -20px;
+    padding: 0;
+    /* width: 100%;
+    height: 100%; */
+    background-color: rgba(0, 0, 0, .9);
+
+}
+
+.serviceiconh {
+    font-size: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+.service-item-left {
+    direction: rtl;
+}
+
+.service-item-right {
+    direction: ltr;
+}
+
+.service-item-icon {
+    border: 1px solid #ffb902;
+    border-radius: 80px;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    color: #ffb902;
+    font-size: 40px;
+    margin-top: 15px;
+    margin-left: 15px;
+    text-align: center;
+
+}
+
+.img-service {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.v-card {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-img-top {
+    width: 100%;
+    padding: 0;
+}
+
+.card {
+    width: 90%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 0;
+}
+
+
+.conh2 {
+    font-family: 'GreatVibes';
+    font-size: 40px;
+    color: #ffb902;
+    text-align: center;
+}
+
+.con-first p {
+    text-align: center;
+}
+
+.con-button {
+    padding: 10px 35px;
+    background-color: #ffb902;
+    color: black;
+    border: 2px solid #ffb902;
+    border-radius: 52px;
+    text-align: center;
+    outline: none;
+    transition: all 0.5s ease-in-out;
+    margin-bottom: 250px;
+}
+
+.buttom-con {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 250px;
+}
+
+.card-body-first {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+
+
+}
+
+.card-span {
+    color: white;
+}
+
+.card-span:hover {
+    color: #ffb902;
+}
+
+.bot-con {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-second {
+    background-image: url(../images/bg3.png), url(../images/bg4.png);
+    background-repeat: no-repeat;
+    background-position: top right, bottom left;
+    overflow: hidden;
+}
+
+.title-cook {
+    text-align: center;
+
+}
+
+.con-first {
+    margin-top: 125px;
+    margin-bottom: 100px;
+}
+
+
+
+.cook {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cook-4 {
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.form1 {
+    background-image: url(../images/slide1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.form1-1 {
+    background-color: rgba(0, 0, 0, .9);
+}
+
+.form-main {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #bbbbbb;
+}
+
+.form-main input {
+    width: 100%;
+    line-height: 30px;
+    border: 3px solid rgb(37, 37, 37);
+    border-radius: 50px;
+    background-color: rgba(37, 37, 37, .5);
+}
+
+.form-main i {
+    line-height: 30px;
+    right: 5px;
+
+
+}
+
+.content-third {
+    background-image: url(../images/bg6.jpg), url(../images/bg5.jpg);
+    background-repeat: no-repeat;
+    background-position: top right, bottom left;
+}
+
+.box-left {
+    background-color: white;
+
+}
+
+.box-left span {
+    color: #ffb902;
+}
+
+.bot-cont {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.bot-cont button {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.slidebutton-bot {
+    padding: 12px 40px;
+    background-color: white;
+    color: black;
+    border: 2px solid #ffb902;
+    border-radius: 52px;
+    text-align: center;
+    outline: none;
+    transition: all 0.5s ease-in-out;
+    animation: buttonslide 1 ease-in-out 0;
+    margin-bottom: 250px;
+}
+
+.slidebutton-bot:hover {
+    background-color: #ffb902;
+    border: 2px solid #ffb902;
+}
+
+
+.content-four {
+
+    background-image: url(../images/c-review-bg.jpg);
+}
+
+.content-five {
+
+    background-image: url(../images/bg7.jpg), url(../images/bg8.jpg);
+    background-repeat: no-repeat;
+    background-position: top right, bottom left;
+}
+
+.content-six {
+
+    background-image: url(../images/subcribe.jpg);
+    background-repeat: no-repeat;
+}
+
+.bot-cont-ca {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slidebutton-bot-ca {
+    padding: 12px 40px;
+    background-color: white;
+    color: black;
+    border: 2px solid #ffb902;
+    border-radius: 52px;
+    text-align: center;
+    outline: none;
+    transition: all 0.5s ease-in-out;
+    animation: buttonslide 1 ease-in-out 0;
+    margin-bottom: 20px;
+}
+
+.slidebutton-bot-ca:hover {
+    background-color: #ffb902;
+    border: 2px solid #ffb902;
+}
+
+.content-seven {
+    background-image: url(../images/bg10.jpg), url(../images/bg11.jpg);
+    background-repeat: no-repeat;
+    background-position: top right, bottom left;
+    overflow: hidden;
+}
+
+.map-fr {
+    background-image: url(../images/map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0px auto;
+    width: 60%;
+    height: 600px;
+    overflow: visible;
+    background-size: contain;
+    font-size: 30px;
+
+}
+
+.content-eight {
+    background-image: url(../images/subcribe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sl-first-h2 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.sl-first p {
+    color: #bbbbbb;
+}
+
+.read-sl {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.sl-first h3 {
+    color: white;
+    line-height: 60px;
+    font-weight: bold;
+}
+
+.img-sl {
+    margin-bottom: 100px;
+}
+
+.read-sl:hover {
+    color: #ffb902;
+}
+
+.box-sl-b {
+    border-bottom: 1px solid #bbbbbb;
+}
+
+.box-sl-matn a {
+    color: #bbbbbb;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.box-sl-matn a:hover {
+    color: #ffb902;
+}
+
+.bor-r {
+    border-left: 1px solid #bbbbbb;
+    margin-left: 10px;
+}
+
+.box-sl-matn-i {
+    font-weight: 600;
+    color: #bbbbbb;
+}
+
+.box-sl-b i {
+    margin-top: 20px;
+}
+
+.box-sl i {
+    margin-top: 20px;
+}
+
+.box-sl-left {
+    color: #bbbbbb;
+    margin-top: 10px;
+}
+
+.box-sl-right {
+    color: #bbbbbb;
+    margin-top: 10px;
+}
+
+.sh-e i {
+    color: #bbbbbb;
+    margin-right: 15px;
+}
+
+.sh-e i:hover {
+    color: #ffb902;
+}
+
+.footer {
+    margin: 10px auto;
+    text-align: center;
+}
+
+.footer-span {
+    color: #ffb902;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.h2 {
+    font-family: 'GreatVibes';
+    font-size: 40px;
+    color: #ffb902;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 80px;
+}
+
+.pservice {
+    text-align: center;
+}
+
+
+
+
+
+
+.slideh1 {
+    font-size: 40px;
+    transition: all 0.7s ease-in-out;
+    animation: h1slide 0.9s ease-in-out;
+}
+
+.slideh2 {
+    font-family: 'GreatVibes';
+    font-size: 40px;
+    color: #ffb902;
+    animation: h2slide 0.9s ease-in-out;
+}
+
+
+
+
+
+
+
+
+.service-items {
+    margin-top: 40px;
+}
+
+.iconservice {
+    display: block;
+    text-align: center;
+    font-size: 54px;
+
+}
+
+
+
+
+
+.service-item .service-item-icon:hover {
+    background-color: #ffb902;
+    color: white;
+
+}
+
+/* .hhoverservice:hover {
+    color: #ffb902;
+
+} */
+
+.carousel-item:hover img,
+h1 {
+    color: #ffb902;
+}
+
+.content-first {
+    background-image: url(../images/bg.jpg);
+}
+
+.content-first-2 {
+    background-color: rgba(0, 0, 0, .9);
+}
+
+
+
+.card-ca {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 4px solid #ffb902;
+    overflow: hidden;
+    margin: 15px auto;
+}
+
+
+
+
+.card-cook {
+    background-color: white;
+    transition: all 0.5s ease-in-out;
+    animation: buttonslide 0.9s ease-in-out;
+    padding: 30px 0px;
+    background-color: #f7f7f7;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+}
+
+.card-cook:hover {
+
+    background-color: #ffb902;
+    border: #ffb902;
+}
+
+.card-cook:hover .li-incook {
+    color: white;
+}
+
+.card-cook:hover .pcook {
+    color: white;
+}
+
+.card-cook-name {
+    text-align: center;
+}
+
+.pcook {
+    text-align: center;
+    color: #a3a19d;
+}
+
+.li-incook {
+    text-align: center;
+    color: #a3a19d;
+}
+
+.li-incook i {
+    margin: 0px 5px;
+}
+
+.card-cook:hover .li-incook .pcook {
+    color: white;
+}
+
+.card-m-cook {
+    margin: 10px 10px;
+}
+
+.form-first {
+    background-image: url(../images/reserv-bg.jpg);
+}
+
+
+
+/* .single-input {
+    border: 1px solid black;
+    background-color: rgba(37, 37, 37, .5);
+    margin: 20px 50px;
+} */
+
+.input-box {
+    background-color: rgba(37, 37, 37, .5);
+    width: 100%;
+    overflow: hidden;
+
+}
